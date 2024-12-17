@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komunitas - ZeroWasteHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+  <header class="bg-green-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="img/logo.png" alt="Logo ZeroWasteHub" class="w-10 h-10 object-contain">
+        <h1 class="text-2xl font-bold">ZeroWasteHub</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="hover:text-gray-300">Beranda</a></li>
+          <li><a href="recycling-guide.html" class="hover:text-gray-300">Panduan Daur Ulang</a></li>
+          <li><a href="#" class="hover:text-gray-300">Komunitas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <section class="relative">
+    <img src="img/komunitas.jpg" alt="Komunitas" class="w-full h-64 object-cover">
+    <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50">
+      <h2 class="text-4xl text-white font-bold mb-4">Bergabung dalam Komunitas Kami</h2>
+      <p class="text-white text-lg text-center">Kolaborasi, diskusi, dan berbagi ide untuk menciptakan masa depan yang berkelanjutan.</p>
+    </div>
+  </section>
+
+  <section class="container mx-auto my-12 px-6">
+    <h3 class="text-3xl font-semibold text-center mb-8">Daftar Acara Mendatang</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+  
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h4 class="text-2xl font-bold mb-2">Workshop Daur Ulang</h4>
+        <p class="text-gray-700 mb-4">Belajar teknik sederhana mendaur ulang sampah plastik di rumah.</p>
+        <p class="text-sm text-gray-500 mb-2"><strong>Tanggal:</strong> 25 Desember 2024</p>
+        <p class="text-sm text-gray-500 mb-4"><strong>Lokasi:</strong> Palu</p>
+        <a href="#form" class="text-green-500 font-bold hover:underline">Daftar Sekarang</a>
+      </div>
+
+    
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h4 class="text-2xl font-bold mb-2">Pembersihan Pantai</h4>
+        <p class="text-gray-700 mb-4">Aksi membersihkan pantai bersama relawan komunitas ZeroWasteHub.</p>
+        <p class="text-sm text-gray-500 mb-2"><strong>Tanggal:</strong> 1 Januari 2025</p>
+        <p class="text-sm text-gray-500 mb-4"><strong>Lokasi:</strong> Luwuk</p>
+        <a href="#form" class="text-green-500 font-bold hover:underline">Daftar Sekarang</a>
+      </div>
+
+     
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h4 class="text-2xl font-bold mb-2">Diskusi Online</h4>
+        <p class="text-gray-700 mb-4">Bergabung dalam diskusi tentang gaya hidup bebas limbah.</p>
+        <p class="text-sm text-gray-500 mb-2"><strong>Tanggal:</strong> 5 Januari 2025</p>
+        <p class="text-sm text-gray-500 mb-4"><strong>Lokasi:</strong> Zoom</p>
+        <a href="#form" class="text-green-500 font-bold hover:underline">Daftar Sekarang</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="form" class="bg-white shadow-lg p-8 rounded-lg container mx-auto my-12">
+    <h3 class="text-3xl font-semibold text-center mb-6">Daftar untuk Mengikuti Acara</h3>
+    <form action="#" method="POST" class="space-y-4">
+      <div>
+        <label for="name" class="block text-sm font-medium">Nama Lengkap</label>
+        <input type="text" id="name" name="name" required class="mt-1 p-2 w-full border rounded-md focus:ring focus:ring-green-300">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium">Email</label>
+        <input type="email" id="email" name="email" required class="mt-1 p-2 w-full border rounded-md focus:ring focus:ring-green-300">
+      </div>
+      <div>
+        <label for="event" class="block text-sm font-medium">Pilih Acara</label>
+        <select id="event" name="event" class="mt-1 p-2 w-full border rounded-md">
+          <option value="workshop">Workshop Daur Ulang</option>
+          <option value="cleaning">Pembersihan Pantai</option>
+          <option value="discussion">Diskusi Online</option>
+        </select>
+      </div>
+      <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition">Daftar Sekarang</button>
+    </form>
+  </section>
+
+
+  <section class="container mx-auto my-12 px-6">
+    <h3 class="text-3xl font-semibold text-center mb-8">Forum Diskusi</h3>
+    <p class="text-center mb-6">Bergabung dalam forum dan bagikan ide tentang pengelolaan limbah dan keberlanjutan.</p>
+    <div class="flex justify-center">
+      <a href="https://www.example.com/forum" target="_blank" class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">Kunjungi Forum</a>
+    </div>
+  </section>
+
+
+  <footer class="bg-green-600 text-white p-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 ZeroWasteHub. Semua Hak Dilindungi.</p>
+      <div class="mt-4">
+        <a href="#" class="mx-2 hover:text-gray-300">Facebook</a> |
+        <a href="#" class="mx-2 hover:text-gray-300">Instagram</a> |
+        <a href="#" class="mx-2 hover:text-gray-300">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
